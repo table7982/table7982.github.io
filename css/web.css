@@ -1,0 +1,52 @@
+.web_box {
+  margin-top: 10px;
+  overflow: hidden;
+  /* background-color: #ccc; */
+}
+
+.web_title {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-family: '方正粗黑宋简体', Courier, monospace;
+  background-color: rgb(196, 188, 177);
+  border-bottom: 1px solid black;
+}
+
+.web_content {
+  text-align: center;
+
+}
+
+.web_content a {
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  float: left;
+  display: block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  color: black;
+  background-color: rgb(222, 214, 202);
+  border: 1px solid rgb(196, 188, 177);
+}
+
+
+.web_content ul li .important_label {
+  color: black;
+  font-size: 20px;
+  font-family: '黑体';
+  background-color: rgb(212, 192, 163);
+}
+
+
+.web_content a:hover,
+.web_content ul li .important_label:hover {
+  background-color: rgb(196, 188, 177);
+}
+
+.web_content a:active,
+.web_content ul li .important_label:active {
+  background-color: rgb(225, 221, 215);
+}

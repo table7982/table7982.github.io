@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 内减模式 */
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+
+body {
+    background-color: #f3f5f7;
+}
+
+
+/* 中心对齐设定 */
+.mid {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+.silder {
+    width: 1366px;
+    height: 650px;
+    background-image: url('../images/sliderMain.png');
+}
+
+.head_box {
+    width: 1366px;
+    height: 75px;
+    background-color: rgb(203, 177, 168);
+}
+
+.logo_box {
+    float: left;
+    width: 200px;
+    height: 75px;
+    background-image: url('../images/logo.png');
+    background-position: center;
+    overflow: none;
+    margin-left: 145px;
+    margin-right: 45px;
+    background-repeat: no-repeat;
+}
+
+.title_box {
+    float: left;
+    height: 75px;
+
+    /* width: 870px; */
+    /* background-color: pink; */
+}
+
+.head_box .title_box ul {
+    overflow: hidden;
+    font-size: 0;
+}
+
+.head_box .title_box li a {
+    float: left;
+    width: 160px;
+    height: 75px;
+    font-size: 24px;
+    font-family: "方正粗黑宋简体", "SimHei", sans-serif;
+    color: black;
+    line-height: 75px;
+    text-align: center;
+}
+
+.head_box .title_box li a:hover {
+    background-color: rgb(208, 190, 184)
+}
+
+.head_box .title_box li a:active {
+    background-color: rgb(219, 209, 205)
+}
+
+
+.head_box .title_box li {
+    display: inline-block;
+}
+
+.head_box .title_box ul {
+    height: 75px;
+}
+
+.head_box .title_box .line {
+    display: inline-block;
+    position: relative;
+    width: 2px;
+    height: 35px;
+    bottom: 20px;
+    background-color: black;
+}
+
+.self_intruduction_box {
+    height: 1932px;
+    background-image: url('../images/self_introduction_private.png');
+}
+
+
+
+
+.bottom_box {
+    width: 1366px;
+    height: 120px;
+
+    bottom: 0;
+
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.bottom_box .base_message_box {
+    overflow: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+}
+
+.bottom_box .base_message_box .base_message {
+    line-height: 30px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
